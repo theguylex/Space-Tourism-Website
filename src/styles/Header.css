@@ -1,0 +1,139 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0; /*40*/
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 30%;
+}
+
+.logo {
+    width: 48px;
+    margin-left: 40px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    background: rgba(255, 255, 255, 0.04);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 0 48px;
+    height: 96px;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-subheading);
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    padding: 34px 0;
+}
+
+.nav a:hover {
+    border-bottom: 3px solid var(--color-accent);
+}
+
+.nav a.active {
+    border-bottom: 3px solid var(--color-white);
+}
+
+.nav a span {
+    font-weight: bold;
+    margin-right: 11px;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 24px;
+    z-index: 11;
+}
+
+.hamburger-line {
+    width: 100%;
+    height: 3px;
+    background: var(--color-white);
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .header {
+        padding: 0;
+    }
+}
+
+/* Mobile nav */
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 15px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Transform to X when menu is open */
+    /* .hamburger.open .hamburger-line:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+
+    .hamburger.open .hamburger-line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.open .hamburger-line:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    } */
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 254px;
+        background: rgba(255, 255, 255, 0.04);
+        -webkit-backdrop-filter: blur(40px);
+        backdrop-filter: blur(40px);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 10;
+    }
+
+    .nav.open {
+        transform: translateX(0);
+    }
+
+    .nav ul {
+        flex-direction: column;
+        padding: 118px 24px;
+        height: 100%;
+        width: 100%;
+        gap: 32px;
+        align-items: flex-start;
+    }
+
+    .nav a {
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav {
+        width: 100%;
+    }
+}
