@@ -37,7 +37,7 @@ function Destination() {
               {data.destinations.map((dest) => (
                 <li key={dest.name}>
                   <div
-                    className={`tab ${activeDestination.name === dest.name ? 'active' : ''}`}
+                    className={`destTab ${activeDestination.name === dest.name ? 'active' : ''}`}
                     onClick={() => setActiveDestination(dest)}
                   >
                     {dest.name}

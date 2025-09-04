@@ -7,7 +7,15 @@ Features
 
 Optimized for desktop (>991px), tablet (769px–991px), and mobile (≤768px) with tailored background images and layouts.
 
-## Dynamic Navigation 
+## Dynamic Navigation
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 15-54-25 .png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 15-54-03 .png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 15-49-28 .png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 15-30-14 Space Tourism.png" alt="" />
 
 Interactive header with a hamburger menu for mobile and active link highlighting using React Router.
 
@@ -17,13 +25,31 @@ Interactive header with a hamburger menu for mobile and active link highlighting
 
 Displays planets (Moon, Mars, Europa, Titan) with images, descriptions, distance, and travel time, using tab navigation.
 
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-02-13 Space Tourism.png" alt=""/>
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-02-53 .png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-03-22 .png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-03-37 .png" alt="" />
+
 ## Crew
 
 Showcases crew members with roles, bios, and images, navigated via dots.
 
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-04-35 Space Tourism.png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-05-05 .png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-05-24 .png" alt="" />
+
 ## Technology
 
 Details space technologies (Launch Vehicle, Spaceport, Space Capsule) with numbered tabs and portrait/landscape images.
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-13-02 .png" alt="" />
+
+<img src="/src/assets/screenshots/Screenshot 2025-09-04 at 16-12-46 .png" alt="" />
 
 ## Optimized Styling
 
@@ -52,7 +78,7 @@ npm (v8 or higher)
 
 ## Installation
 
-Clone the repository:git clone https://github.com/theguylex/Space-Tourism-Website
+Clone the repository: git clone https://github.com/theguylex/Space-Tourism-Website
 
 Navigate to the project directory:cd space-tourism
 

@@ -55,10 +55,11 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 32px;
+  margin-top: 60px;
 }
 
-.tab {
+.techTab {
   width: 80px;
   height: 80px;
   background: transparent;
@@ -74,11 +75,11 @@
   padding-top: 15px;
 }
 
-.tab:hover {
+.techTab:hover {
   border-color: var(--color-white);
 }
 
-.tab.active {
+.techTab.active {
   background: var(--color-white);
   color: var(--color-dark);
 }
@@ -271,12 +272,14 @@
     flex-direction: row;
     justify-content: center;
     gap: 16px;
+    margin-top: -40px;
   }
 
-  .tab {
+  .techTab {
     width: 40px;
     height: 40px;
     font-size: 16px;
+    padding-top: 5px;
   }
 
   .tech-term {

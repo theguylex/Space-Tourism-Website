@@ -146,7 +146,7 @@ p {
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 767px) {
     .hero {
         padding: 10 24px 48px;
     }
@@ -163,5 +163,10 @@ p {
 
     .home {
         background-image: url('../assets/home/background-home-mobile.jpg');
+    }
+
+    #homeSubhead {
+        display: block;
+        text-align: center;
     }
 }

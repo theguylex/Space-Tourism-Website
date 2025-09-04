@@ -40,7 +40,7 @@ function Technology() {
                   {data.technology.map((tech, index) => (
                     <li key={tech.name}>
                       <div
-                        className={`tab ${activeTech.name === tech.name ? 'active' : ''}`}
+                        className={`techTab ${activeTech.name === tech.name ? 'active' : ''}`}
                         onClick={() => setActiveTech(tech)}
                         aria-label={`Select ${tech.name}`}
                       >
@@ -54,6 +54,7 @@ function Technology() {
                 <h3 className="tech-term">The terminology...</h3>
                 <h1 className="tech-name">{activeTech.name}</h1>
                 <p className="tech-description">{activeTech.description}</p>
+                
               </div>
             </div>
           </div>
